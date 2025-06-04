@@ -1,0 +1,8 @@
+create schema `exam_0502`;
+
+create table `exam_0502`.`tickers`
+(
+    `id`   varchar(5)   not null,
+    `name` varchar(100) not null,
+    constraint primary key (`id`)
+);

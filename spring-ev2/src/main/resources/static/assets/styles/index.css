@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+#tickerForm {
+    margin: 0 auto;
+    width: 30rem;
+    max-height: 80vh;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.225rem #999999;
+    padding: 1.5rem;
+    overflow-y: auto;
+
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    justify-content: center;
+}
+
+#tickerForm .label {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#tickerForm .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+#tickerForm .title {
+    font-size: 1.425rem;
+    font-weight: 300;
+    color: #606870;
+    margin-bottom: 0.625rem;
+}
+
+#tickerForm .sub-title {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #606870;
+    margin: 0.625rem 0 0.625rem 0;
+}
+
+#tickerForm .caption {
+    font-size: 0.775rem;
+    color: #999999;
+    padding: 0.25rem 0;
+}
+
+#tickerForm .-obj-field.--id {
+    width: 8.5rem;
+    height: 2.25rem;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+}
+
+#tickerForm .-obj-field.--name {
+    width: 13rem;
+    height: 2.25rem;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+}
+
+#tickerForm .-obj-button {
+    height: 2.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: #2fa994;
+    color: #f7f9fb;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 0.8375rem;
+
+    transition-duration: 125ms;
+    transition-property: background-color;
+    transition-timing-function: ease;
+}
+
+#tickerForm .-obj-button:hover {
+    background-color: #258876;
+}
+
+#tickerForm .-obj-button:active {
+    background-color: #1f6e5a;
+}
+
+#tickerTable {
+    margin: 0 auto;
+    width: 100%;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#tickerTable thead {
+    background-color: #f0f0f0;
+}
+
+#tickerTable thead th:nth-child(1) {
+    width: 5rem;
+    border-right: 0.0625rem solid #ddd;
+    padding: 0.3rem 0.625rem;
+}
+
+#tickerTable thead th:nth-child(2) {
+    border-right: 0.0625rem solid #ddd;
+    padding: 0.3rem 0.625rem;
+}
+
+#tickerTable thead th:nth-child(3) {
+    width: 4rem;
+    padding: 0.3rem 0.625rem;
+}
+
+#tickerTable tbody th {
+    border-right: 0.0625rem solid #ddd;
+    border-bottom: 0.0625rem solid #ddd;
+    padding: 0.3rem 0.625rem;
+}
+
+#tickerTable tbody td:nth-child(2) {
+    border-right: 0.0625rem solid #ddd;
+    border-bottom: 0.0625rem solid #ddd;
+    padding: 0.3rem 0.625rem;
+    text-align: start;
+}
+
+#tickerTable tbody td:nth-child(3) {
+    border-right: 0.0625rem solid #ddd;
+    border-bottom: 0.0625rem solid #ddd;
+    padding: 0.3rem 0.625rem;
+}
+
+#tickerTable .deleteButton {
+    font-size: 0.875rem;
+    color: #75C7FF;
+    cursor: pointer;
+}
+
+#tickerTable .deleteButton:hover {
+    text-decoration: underline;
+    color: #3DA8FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

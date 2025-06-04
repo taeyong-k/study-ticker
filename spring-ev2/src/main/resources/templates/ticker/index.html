@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>티커 관리</title>
+    <link rel="stylesheet" href="/assets/styles/common.css">
+    <link rel="stylesheet" href="/assets/styles/index.css">
+    <script defer src="/assets/scripts/index.js"></script>
+</head>
+<body>
+<form id="tickerForm">
+    <h2 class="title">티커 관리</h2>
+    <div class="row">
+        <label class="label">
+            <span class="caption">ID</span>
+            <input autofocus autocomplete="off" class="-obj-field --id" name="id"
+                   maxlength="5" minlength="1" spellcheck="false" type="text">
+        </label>
+        <label class="label">
+            <span class="caption">이름</span>
+            <input autocomplete="off" class="-obj-field --name" name="name"
+                   maxlength="100" minlength="1" spellcheck="false" type="text">
+        </label>
+        <label class="label">
+            <span class="caption">&nbsp;</span>
+            <button class="-obj-button" type="submit">등록하기</button>
+        </label>
+    </div>
+    <label class="label">
+        <h3 class="sub-title">등록된 티커</h3>
+    </label>
+
+    <table id="tickerTable">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">이름</th>
+            <th scope="col">동작</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row"></th>
+            <td></td>
+            <td>
+                <button class="deleteButton" name="delete" type="button"></button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
